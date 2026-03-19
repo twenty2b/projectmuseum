@@ -17,7 +17,7 @@ export function VideoPlayer({ story, onBack, onSelectRelated, allStories }: Vide
   const [showControls, setShowControls] = useState(true)
   const [showInsights, setShowInsights] = useState(false)
   const [ended, setEnded] = useState(false)
-  const controlsTimeout = useRef<ReturnType<typeof setTimeout>>()
+  const controlsTimeout = useRef<ReturnType<typeof setTimeout>>(undefined)
 
   const hasVideo = !!story.videoUrl
 
