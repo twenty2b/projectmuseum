@@ -1,192 +1,192 @@
 [
   {
-    "id": "s01",
-    "title": "The Ward: Toronto's First Immigrant Neighbourhood",
-    "description": "How a dense downtown neighbourhood became the landing pad for waves of newcomers who shaped the city's identity.",
-    "neighborhood": "The Ward",
-    "lat": 43.6555,
-    "lng": -79.3845,
-    "themes": ["immigration", "housing", "community", "history"],
-    "duration": 75,
-    "videoUrl": null,
-    "thumbnail": null,
-    "transcript": "In the heart of what is now Nathan Phillips Square stood one of Toronto's most storied neighbourhoods. The Ward, as it was known, was home to successive waves of immigrants from the 1840s onward. Irish, Jewish, Italian, and Chinese communities each left their mark on these dense city blocks before urban renewal swept them away in the 1950s and 60s.",
-    "entities": [
-      { "id": "e01", "name": "The Ward", "type": "place", "description": "Historic immigrant neighbourhood demolished for Nathan Phillips Square and City Hall", "timestampStart": 5, "timestampEnd": 15 },
-      { "id": "e02", "name": "Nathan Phillips Square", "type": "place", "description": "Toronto's main civic square, built 1965 on the site of The Ward", "timestampStart": 8, "timestampEnd": 12 },
-      { "id": "e03", "name": "Urban Renewal", "type": "event", "description": "Post-war policy of demolishing 'slum' neighbourhoods for modernist redevelopment", "timestampStart": 55, "timestampEnd": 65 }
-    ],
-    "relatedStoryIds": ["s02", "s04", "s07"]
-  },
-  {
-    "id": "s02",
-    "title": "Kensington Market: A Living Museum",
-    "description": "From Jewish market stalls to global food destination, Kensington Market's evolution mirrors Toronto's changing demographics.",
-    "neighborhood": "Kensington Market",
-    "lat": 43.6547,
-    "lng": -79.4006,
-    "themes": ["food", "immigration", "culture", "markets"],
-    "duration": 85,
-    "videoUrl": null,
-    "thumbnail": null,
-    "transcript": "Walk through Kensington Market today and you're walking through layers of Toronto's history. In the 1920s, these were Jewish market stalls selling chickens and fish. By the 1960s, Portuguese bakeries appeared. Then came Caribbean spice shops, Vietnamese pho houses, and Mexican taquerias. The market has never been frozen in time. It evolves with whoever calls Toronto home.",
-    "entities": [
-      { "id": "e04", "name": "Kensington Market", "type": "place", "description": "Bohemian neighbourhood and open-air market in downtown Toronto, designated a National Historic Site in 2006", "timestampStart": 2, "timestampEnd": 10 },
-      { "id": "e05", "name": "Jewish Toronto", "type": "theme", "description": "The Jewish community's deep roots in Toronto, from Spadina Avenue garment factories to present day", "timestampStart": 18, "timestampEnd": 28 },
-      { "id": "e06", "name": "Portuguese Community", "type": "theme", "description": "Portuguese immigration to Toronto peaked in the 1950s-70s, centred around Dundas and Ossington", "timestampStart": 35, "timestampEnd": 42 }
-    ],
-    "relatedStoryIds": ["s01", "s03", "s06"]
-  },
-  {
-    "id": "s03",
-    "title": "The Jamaican Patty: Toronto's Signature Bite",
-    "description": "How the Jamaican patty became a Toronto staple, from Caribbean kitchens to corner shops across the city.",
-    "neighborhood": "Little Jamaica",
-    "lat": 43.6928,
-    "lng": -79.4394,
-    "themes": ["food", "caribbean", "community", "culture"],
-    "duration": 90,
-    "videoUrl": "/videos/23_Jamaican_Patty.mp4",
-    "thumbnail": null,
-    "transcript": "In the 1970s and 80s, Eglinton Avenue West between Oakwood and Dufferin was the centre of Caribbean life in Toronto. Record shops, patty shops, barbershops, and sound system dances defined the strip. Artists like Leroy Sibbles and Jackie Mittoo recorded at studios nearby. In 2015, the city officially designated a stretch of Eglinton as Reggae Lane, but by then gentrification and the Crosstown LRT construction had already transformed the neighbourhood.",
-    "entities": [
-      { "id": "e07", "name": "Little Jamaica", "type": "place", "description": "Toronto neighbourhood along Eglinton West, historic centre of Jamaican-Canadian community", "timestampStart": 3, "timestampEnd": 12 },
-      { "id": "e08", "name": "Leroy Sibbles", "type": "person", "description": "Jamaican-Canadian reggae musician, founding member of The Heptones, Toronto resident since the 1970s", "timestampStart": 42, "timestampEnd": 48 },
-      { "id": "e09", "name": "Crosstown LRT", "type": "event", "description": "Major transit construction project along Eglinton Avenue, disrupting businesses for over a decade", "timestampStart": 68, "timestampEnd": 78 }
-    ],
-    "relatedStoryIds": ["s02", "s05", "s09"]
-  },
-  {
-    "id": "s04",
-    "title": "The Don Valley: Toronto's Hidden Wilderness",
-    "description": "The ravine system that runs through Toronto's east end holds stories of industry, ecology, and reinvention.",
-    "neighborhood": "Don Valley",
-    "lat": 43.6677,
-    "lng": -79.3580,
-    "themes": ["nature", "environment", "industry", "history"],
-    "duration": 80,
-    "videoUrl": null,
-    "thumbnail": null,
-    "transcript": "Before the Don Valley Parkway carved through it, the Don River valley was Toronto's industrial backbone. Brickyards, tanneries, and slaughterhouses lined the river. By the 1960s, it was one of the most polluted waterways in Canada. Today, the Don Valley trails are some of the most popular green spaces in the city, and the Evergreen Brick Works has transformed a former quarry into a community hub for sustainability.",
-    "entities": [
-      { "id": "e10", "name": "Don Valley", "type": "place", "description": "Major ravine system cutting through Toronto's east side, from the Oak Ridges Moraine to the harbour", "timestampStart": 3, "timestampEnd": 10 },
-      { "id": "e11", "name": "Evergreen Brick Works", "type": "place", "description": "Former Don Valley Pressed Brick Works, now a community environmental centre", "timestampStart": 55, "timestampEnd": 65 },
-      { "id": "e12", "name": "Don River Restoration", "type": "event", "description": "Ongoing effort to naturalize the Don River mouth and restore ecological health", "timestampStart": 65, "timestampEnd": 75 }
-    ],
-    "relatedStoryIds": ["s01", "s08", "s10"]
-  },
-  {
     "id": "s05",
-    "title": "Toronto's First NBA Team: The Raptors Story",
-    "description": "How Toronto got its first NBA franchise and what it meant for the city's identity on the world stage.",
-    "neighborhood": "Exhibition Place",
-    "lat": 43.6335,
-    "lng": -79.4180,
-    "themes": ["sports", "culture", "identity", "community"],
-    "duration": 70,
-    "videoUrl": "/videos/19_First_NBA_Team.mp4",
+    "title": "The Ward: Toronto's First Immigrant Neighbourhood",
+    "description": "A dense downtown neighbourhood where successive waves of newcomers settled from the 1840s to the 1950s. Irish, Jewish, Black, Italian, and Chinese communities all called it home before it was demolished for hospitals, New City Hall, and Nathan Phillips Square.",
+    "neighborhood": "The Ward",
+    "lat": 43.6525,
+    "lng": -79.3832,
+    "themes": ["immigration", "displacement", "multiculturalism", "urban renewal"],
+    "duration": 90,
+    "videoUrl": "/videos/05_The_Ward.mp4",
     "thumbnail": null,
-    "transcript": "In 1967, as Canada celebrated its centennial, Toronto's Caribbean community created its own celebration. What started as a modest parade along University Avenue has grown into one of North America's largest street festivals, drawing over a million visitors each summer. The mas bands, the steel pans, the soca trucks shaking Lakeshore Boulevard, these are sounds and sights that belong to Toronto as much as they belong to the islands.",
+    "transcript": "In the heart of what is now Nathan Phillips Square stood one of Toronto's most storied neighbourhoods. The Ward was home to successive waves of immigrants from the 1840s onward.",
     "entities": [
-      { "id": "e13", "name": "Toronto Caribbean Carnival", "type": "event", "description": "Annual Caribbean cultural festival, formerly known as Caribana, held since 1967", "timestampStart": 5, "timestampEnd": 15 },
-      { "id": "e14", "name": "Canada's Centennial", "type": "event", "description": "1967 celebration of Canada's 100th anniversary of Confederation", "timestampStart": 8, "timestampEnd": 14 },
-      { "id": "e15", "name": "Lakeshore Boulevard", "type": "place", "description": "Major waterfront road, traditional parade route for the carnival", "timestampStart": 50, "timestampEnd": 58 }
+      { "id": "e01", "name": "The Ward", "type": "place", "description": "Historic immigrant neighbourhood bounded by College, Queen, Yonge, and University. Demolished in the 1950s-60s.", "timestampStart": 5, "timestampEnd": 20 },
+      { "id": "e02", "name": "Nathan Phillips Square", "type": "place", "description": "Toronto's main civic square, built 1965 on the former site of The Ward.", "timestampStart": 3, "timestampEnd": 10 },
+      { "id": "e03", "name": "Urban Renewal", "type": "event", "description": "Post-war policy of demolishing so-called slum neighbourhoods for modernist redevelopment.", "timestampStart": 55, "timestampEnd": 70 }
     ],
-    "relatedStoryIds": ["s03", "s06", "s09"]
+    "relatedStoryIds": ["s06", "s16", "s17"]
   },
   {
     "id": "s06",
-    "title": "Jane Jacobs and the Spadina Expressway Fight",
-    "description": "How citizen activism stopped a highway from destroying downtown Toronto's neighbourhoods.",
-    "neighborhood": "The Annex",
-    "lat": 43.6710,
-    "lng": -79.4058,
-    "themes": ["activism", "urban planning", "community", "history"],
-    "duration": 85,
-    "videoUrl": null,
+    "title": "Little Portugal: Dundas West's Cultural Heart",
+    "description": "A vibrant neighbourhood settled by Portuguese immigrants in the 1950s-60s. Centred along Dundas Street West, known for bakeries, churrasqueiras, and the annual Portugal Day celebrations.",
+    "neighborhood": "Little Portugal",
+    "lat": 43.6488,
+    "lng": -79.4275,
+    "themes": ["immigration", "community", "cultural preservation", "food"],
+    "duration": 75,
+    "videoUrl": "/videos/6__TTYD__Little_Portugal.mp4",
     "thumbnail": null,
-    "transcript": "In 1969, the Ontario government planned to extend the Spadina Expressway straight through the heart of downtown Toronto. It would have leveled blocks of homes in The Annex, Kensington Market, and Chinatown. Jane Jacobs, who had recently moved to Toronto from New York, joined a coalition of residents who fought the highway. Their campaign, Stop Spadina Save Our City, succeeded in 1971 when Premier Bill Davis cancelled the project. That decision shaped modern Toronto more than any building ever built.",
+    "transcript": "Along Dundas Street West between Ossington and Dufferin, a community built itself brick by brick. Portuguese families arrived in Toronto starting in the 1950s and 60s.",
     "entities": [
-      { "id": "e16", "name": "Jane Jacobs", "type": "person", "description": "Urban theorist and activist, author of The Death and Life of Great American Cities, Toronto resident from 1968 until her death in 2006", "timestampStart": 20, "timestampEnd": 30 },
-      { "id": "e17", "name": "Spadina Expressway", "type": "event", "description": "Proposed highway that would have cut through downtown Toronto, cancelled in 1971 after citizen opposition", "timestampStart": 5, "timestampEnd": 15 },
-      { "id": "e18", "name": "Bill Davis", "type": "person", "description": "Premier of Ontario (1971-1985) who cancelled the Spadina Expressway", "timestampStart": 60, "timestampEnd": 68 }
+      { "id": "e04", "name": "Little Portugal", "type": "place", "description": "Toronto neighbourhood along Dundas West, settled primarily by Portuguese immigrants beginning in the 1950s.", "timestampStart": 3, "timestampEnd": 15 },
+      { "id": "e05", "name": "Portugal Day", "type": "event", "description": "Annual celebration of Portuguese culture held in June along Dundas Street West.", "timestampStart": 40, "timestampEnd": 50 },
+      { "id": "e06", "name": "Dundas Street West", "type": "place", "description": "Major east-west thoroughfare through Little Portugal, lined with bakeries and restaurants.", "timestampStart": 8, "timestampEnd": 18 }
     ],
-    "relatedStoryIds": ["s01", "s02", "s08"]
+    "relatedStoryIds": ["s05", "s08", "s23"]
   },
   {
     "id": "s07",
-    "title": "Regent Park: Demolition and Rebirth",
-    "description": "Canada's first and largest social housing project faces demolition and redevelopment, displacing thousands.",
-    "neighborhood": "Regent Park",
-    "lat": 43.6580,
-    "lng": -79.3630,
-    "themes": ["housing", "community", "redevelopment", "displacement"],
-    "duration": 90,
-    "videoUrl": null,
+    "title": "The Buried Bridge: Taddle Creek's Hidden World",
+    "description": "A 6km stream once flowed through the University of Toronto campus to the harbour. Buried underground in the 1860s-1880s, its ghost still shapes the city above.",
+    "neighborhood": "University of Toronto",
+    "lat": 43.6629,
+    "lng": -79.3957,
+    "themes": ["hidden infrastructure", "environment", "urban archaeology", "lost waterways"],
+    "duration": 80,
+    "videoUrl": "/videos/7__TTYD__Buried_Bridge.mp4",
     "thumbnail": null,
-    "transcript": "Built in the late 1940s, Regent Park was supposed to be the solution to Toronto's housing crisis. For decades it was Canada's largest social housing project, home to thousands of families from around the world. By the 2000s, the buildings were deteriorating and the neighbourhood was isolated from the surrounding city. The revitalization plan promised modern mixed-income housing, but for many long-time residents, it meant displacement from the only community they had ever known.",
+    "transcript": "Beneath your feet, a river still flows. Taddle Creek once wound through what is now the University of Toronto, crossed by bridges at Yonge Street before emptying into the harbour.",
     "entities": [
-      { "id": "e19", "name": "Regent Park", "type": "place", "description": "Canada's oldest and largest social housing project, built 1948, undergoing revitalization since 2005", "timestampStart": 3, "timestampEnd": 12 },
-      { "id": "e20", "name": "Toronto Community Housing", "type": "theme", "description": "Largest social housing provider in Canada, managing over 58,000 units", "timestampStart": 25, "timestampEnd": 35 },
-      { "id": "e21", "name": "Regent Park Revitalization", "type": "event", "description": "Multi-phase redevelopment replacing original buildings with mixed-income communities", "timestampStart": 55, "timestampEnd": 70 }
+      { "id": "e07", "name": "Taddle Creek", "type": "place", "description": "A buried 6km stream running from near St. Clair through U of T to the harbour, converted to sewers in the 1860s-1880s.", "timestampStart": 5, "timestampEnd": 20 },
+      { "id": "e08", "name": "Philosopher's Walk", "type": "place", "description": "A pathway at the University of Toronto that follows the old Taddle Creek ravine.", "timestampStart": 30, "timestampEnd": 40 },
+      { "id": "e09", "name": "Lost Rivers", "type": "theme", "description": "Toronto has dozens of buried streams. Taddle Creek is the most famous, but Garrison Creek, Castle Frank Brook, and others also flow underground.", "timestampStart": 50, "timestampEnd": 65 }
     ],
-    "relatedStoryIds": ["s01", "s04", "s10"]
+    "relatedStoryIds": ["s16", "s05", "s10"]
   },
   {
     "id": "s08",
-    "title": "The Toronto Islands: A Community Under Threat",
-    "description": "The residents of Ward's Island and Algonquin Island fought for decades to keep their homes.",
-    "neighborhood": "Toronto Islands",
-    "lat": 43.6205,
-    "lng": -79.3728,
-    "themes": ["community", "activism", "waterfront", "history"],
-    "duration": 75,
-    "videoUrl": null,
+    "title": "Yorkville: From Hippie Haven to High Fashion",
+    "description": "Now Toronto's luxury shopping district, Yorkville was the epicentre of Canada's 1960s counterculture. Coffeehouses hosted Joni Mitchell, Neil Young, and Gordon Lightfoot before gentrification transformed the neighbourhood.",
+    "neighborhood": "Yorkville",
+    "lat": 43.6709,
+    "lng": -79.3935,
+    "themes": ["counterculture", "gentrification", "music", "transformation"],
+    "duration": 85,
+    "videoUrl": "/videos/8__TTYD__Yorkville.mp4",
     "thumbnail": null,
-    "transcript": "Just a ten-minute ferry ride from downtown sits one of Toronto's most unusual communities. The Toronto Islands have been home to a small residential community since the 1800s. In the 1950s, Metro Toronto began demolishing homes to create parkland. Residents fought back, and after decades of legal battles, the Island community won the right to stay through a 99-year land lease in 1993. Today, about 600 people live on the islands, a car-free village within sight of the skyline.",
+    "transcript": "In the 1960s, Yorkville was Toronto's answer to Greenwich Village. Coffeehouses like the Riverboat and the Purple Onion were launching pads for a generation of Canadian musicians.",
     "entities": [
-      { "id": "e22", "name": "Toronto Islands", "type": "place", "description": "Chain of small islands in Toronto harbour, home to a residential community and public parkland", "timestampStart": 5, "timestampEnd": 12 },
-      { "id": "e23", "name": "Ward's Island", "type": "place", "description": "Easternmost of the Toronto Islands, residential community since the 1880s", "timestampStart": 15, "timestampEnd": 22 },
-      { "id": "e24", "name": "Island Community Land Trust", "type": "theme", "description": "1993 agreement granting island residents a 99-year lease on their homes", "timestampStart": 50, "timestampEnd": 60 }
+      { "id": "e10", "name": "Yorkville", "type": "place", "description": "Toronto neighbourhood that transformed from 1960s bohemian hub to luxury retail district.", "timestampStart": 3, "timestampEnd": 12 },
+      { "id": "e11", "name": "Joni Mitchell", "type": "person", "description": "Canadian singer-songwriter who performed at Yorkville coffeehouses in the mid-1960s before moving to the US.", "timestampStart": 25, "timestampEnd": 35 },
+      { "id": "e12", "name": "The Riverboat Coffee House", "type": "place", "description": "Legendary Yorkville folk music venue at 134 Yorkville Avenue, operated 1964-1978.", "timestampStart": 18, "timestampEnd": 28 }
     ],
-    "relatedStoryIds": ["s04", "s06", "s10"]
-  },
-  {
-    "id": "s09",
-    "title": "Honest Ed's: The End of an Era",
-    "description": "When Toronto's most beloved discount store closed, it took a piece of the city's soul with it.",
-    "neighborhood": "Mirvish Village",
-    "lat": 43.6641,
-    "lng": -79.4117,
-    "themes": ["commerce", "culture", "gentrification", "nostalgia"],
-    "duration": 65,
-    "videoUrl": null,
-    "thumbnail": null,
-    "transcript": "For 64 years, Honest Ed's was a Toronto landmark. Ed Mirvish opened his bargain store at the corner of Bloor and Bathurst in 1948, and it became the place where new immigrants outfitted their first Canadian apartments. The store's hand-painted signs and overwhelming chaos were part of its charm. When it closed in 2016 to make way for condominiums, thousands lined up for one last visit. The neon signs were saved, but the spirit of the place, the feeling of abundance for everyone, that was harder to preserve.",
-    "entities": [
-      { "id": "e25", "name": "Honest Ed's", "type": "place", "description": "Legendary discount department store at Bloor and Bathurst, operated 1948-2016", "timestampStart": 3, "timestampEnd": 10 },
-      { "id": "e26", "name": "Ed Mirvish", "type": "person", "description": "Toronto businessman, philanthropist, and theatre impresario, founder of Honest Ed's and restorer of the Royal Alexandra Theatre", "timestampStart": 12, "timestampEnd": 20 },
-      { "id": "e27", "name": "Mirvish Village Redevelopment", "type": "event", "description": "Mixed-use development replacing Honest Ed's and surrounding properties, completed 2023", "timestampStart": 45, "timestampEnd": 55 }
-    ],
-    "relatedStoryIds": ["s02", "s03", "s06"]
+    "relatedStoryIds": ["s17", "s06", "s10"]
   },
   {
     "id": "s10",
-    "title": "The Waterfront: Reclaiming the Lake",
-    "description": "Toronto spent a century turning its back on Lake Ontario. Now it's trying to turn around.",
-    "neighborhood": "Waterfront",
-    "lat": 43.6400,
-    "lng": -79.3775,
-    "themes": ["urban planning", "waterfront", "environment", "redevelopment"],
+    "title": "The Candy Bar Strike of 1947",
+    "description": "When chocolate bar prices rose from 5 to 8 cents, 500 Toronto high school students marched down Bloor Street to Christie Pits in a nationwide youth boycott that collapsed when organizers were red-baited during the Cold War.",
+    "neighborhood": "Christie Pits",
+    "lat": 43.6641,
+    "lng": -79.4253,
+    "themes": ["youth activism", "consumer protest", "cold war", "labour"],
     "duration": 80,
-    "videoUrl": null,
+    "videoUrl": "/videos/10__TTYD__Candy_Bar_Strike.mp4",
     "thumbnail": null,
-    "transcript": "For most of the 20th century, Toronto's waterfront was a barrier of railways, highways, and industrial land separating the city from its lake. The Gardiner Expressway, completed in 1966, became the defining symbol of that separation. Since 2001, Waterfront Toronto has been working to reconnect the city with Lake Ontario. Projects like the Bentway, which transformed the space under the Gardiner into a public park, show what is possible. But the full vision, a continuous public waterfront from the Humber River to the Scarborough Bluffs, remains decades away.",
+    "transcript": "In 1947, the price of a chocolate bar went up from five cents to eight cents. To Canadian kids, this was an outrage worth fighting.",
     "entities": [
-      { "id": "e28", "name": "Gardiner Expressway", "type": "place", "description": "Elevated highway along Toronto's waterfront, completed 1966, subject of ongoing demolition debates", "timestampStart": 20, "timestampEnd": 30 },
-      { "id": "e29", "name": "Waterfront Toronto", "type": "theme", "description": "Government agency created in 2001 to oversee waterfront revitalization", "timestampStart": 38, "timestampEnd": 45 },
-      { "id": "e30", "name": "The Bentway", "type": "place", "description": "Public space created under the Gardiner Expressway, opened 2018, featuring skating trail, gardens, and performance space", "timestampStart": 48, "timestampEnd": 58 }
+      { "id": "e13", "name": "Christie Pits Park", "type": "place", "description": "West Toronto park that was the rally point for the 1947 candy bar strike. Also the site of the 1933 Christie Pits riot.", "timestampStart": 30, "timestampEnd": 45 },
+      { "id": "e14", "name": "Candy Bar Boycott", "type": "event", "description": "1947 nationwide children's boycott against a 60% price increase on chocolate bars.", "timestampStart": 5, "timestampEnd": 20 },
+      { "id": "e15", "name": "Cold War Red Scare", "type": "event", "description": "The Toronto Evening Telegram accused strike organizers of communist ties, causing the boycott to collapse.", "timestampStart": 55, "timestampEnd": 70 }
     ],
-    "relatedStoryIds": ["s04", "s07", "s08"]
+    "relatedStoryIds": ["s08", "s07", "s21"]
+  },
+  {
+    "id": "s16",
+    "title": "Davenport Road: The 10,000-Year-Old Trail",
+    "description": "One of the oldest roads in Toronto follows an Indigenous portage trail connecting the Don and Humber rivers along the ancient shoreline of glacial Lake Iroquois. It has been in continuous use for over 10,000 years.",
+    "neighborhood": "Davenport",
+    "lat": 43.6745,
+    "lng": -79.4047,
+    "themes": ["indigenous history", "ancient trails", "urban archaeology", "colonialism"],
+    "duration": 85,
+    "videoUrl": "/videos/16_Davenport.mp4",
+    "thumbnail": null,
+    "transcript": "Every time you drive along Davenport Road, you're following a path that has been walked for over ten thousand years. Long before Toronto existed, this was a portage trail.",
+    "entities": [
+      { "id": "e16", "name": "Davenport Road", "type": "place", "description": "Road following an Indigenous portage trail called Gete-Onigaming, used for over 10,000 years.", "timestampStart": 3, "timestampEnd": 15 },
+      { "id": "e17", "name": "Lake Iroquois Shoreline", "type": "place", "description": "Ancient glacial lake whose shoreline is now marked by the escarpment along Davenport Road.", "timestampStart": 25, "timestampEnd": 40 },
+      { "id": "e18", "name": "Ishpadinaa", "type": "theme", "description": "Anishinaabemowin name for the area, meaning 'high place.' Now marked on street signs along Davenport.", "timestampStart": 50, "timestampEnd": 65 }
+    ],
+    "relatedStoryIds": ["s07", "s05", "s21"]
+  },
+  {
+    "id": "s17",
+    "title": "The Yonge Street Mall: Toronto's Sin Strip",
+    "description": "In the 1970s, the stretch of Yonge Street between Dundas and Gerrard was lined with grindhouse theatres, body-rub parlours, and adult entertainment. The era ended after a tragic event in 1977 triggered a public cleanup campaign.",
+    "neighborhood": "Yonge Street Mall",
+    "lat": 43.6580,
+    "lng": -79.3811,
+    "themes": ["vice", "urban morality", "civic reform", "1970s culture"],
+    "duration": 80,
+    "videoUrl": "/videos/17_Sexual_Supermarket.mp4",
+    "thumbnail": null,
+    "transcript": "In the 1970s, if you walked along Yonge Street between Dundas and Gerrard, you entered a different world. This was Toronto's Sin Strip.",
+    "entities": [
+      { "id": "e19", "name": "Yonge Street Strip", "type": "place", "description": "Four blocks of Yonge Street between Dundas and Gerrard, nicknamed 'The Sin Strip' in the 1970s.", "timestampStart": 5, "timestampEnd": 18 },
+      { "id": "e20", "name": "Yonge Street Cleanup", "type": "event", "description": "Public campaign in the late 1970s that led to the removal of adult businesses from Yonge Street.", "timestampStart": 50, "timestampEnd": 65 },
+      { "id": "e21", "name": "Grindhouse Theatres", "type": "theme", "description": "Low-budget movie theatres showing exploitation films, a fixture of 1970s Yonge Street.", "timestampStart": 20, "timestampEnd": 35 }
+    ],
+    "relatedStoryIds": ["s08", "s05", "s19"]
+  },
+  {
+    "id": "s21",
+    "title": "The Great Stork Derby",
+    "description": "When Toronto lawyer Charles Vance Millar died in 1926, his will left his fortune to the Toronto woman who gave birth to the most children in the following 10 years. Four women each won for having nine children apiece.",
+    "neighborhood": "Spadina / College",
+    "lat": 43.6572,
+    "lng": -79.3997,
+    "themes": ["legal eccentricity", "depression era", "women's history", "reproductive politics"],
+    "duration": 90,
+    "videoUrl": "/videos/21_The_Birthplace_of_Pregnancy_Racing.mp4",
+    "thumbnail": null,
+    "transcript": "On Halloween 1926, a Toronto lawyer named Charles Vance Millar died and left behind the most mischievous will in Canadian history.",
+    "entities": [
+      { "id": "e22", "name": "Charles Vance Millar", "type": "person", "description": "Toronto lawyer whose 1926 will sparked the Great Stork Derby, leaving his fortune to whoever had the most babies in 10 years.", "timestampStart": 5, "timestampEnd": 20 },
+      { "id": "e23", "name": "The Great Stork Derby", "type": "event", "description": "A 10-year contest (1926-1936) sparked by Millar's will. Four women tied with nine children each and split the fortune.", "timestampStart": 15, "timestampEnd": 40 },
+      { "id": "e24", "name": "Great Depression", "type": "event", "description": "The contest ran through the Depression, making the prize money life-changing for working-class families.", "timestampStart": 45, "timestampEnd": 60 }
+    ],
+    "relatedStoryIds": ["s10", "s16", "s17"]
+  },
+  {
+    "id": "s19",
+    "title": "Toronto's First NBA Game: The Huskies",
+    "description": "The very first game in NBA history was played in Toronto on November 1, 1946, when the Toronto Huskies hosted the New York Knickerbockers at Maple Leaf Gardens. The Huskies folded after one season.",
+    "neighborhood": "Church-Wellesley",
+    "lat": 43.6621,
+    "lng": -79.3822,
+    "themes": ["sports", "basketball", "Canadian-American culture", "lost teams"],
+    "duration": 70,
+    "videoUrl": "/videos/19_First_NBA_Team.mp4",
+    "thumbnail": null,
+    "transcript": "On November 1, 1946, the very first game in what would become the NBA was played right here in Toronto. The Toronto Huskies took on the New York Knickerbockers at Maple Leaf Gardens.",
+    "entities": [
+      { "id": "e25", "name": "Toronto Huskies", "type": "theme", "description": "Toronto's first professional basketball team, played one season (1946-47) in the Basketball Association of America.", "timestampStart": 5, "timestampEnd": 20 },
+      { "id": "e26", "name": "Maple Leaf Gardens", "type": "place", "description": "Iconic arena at 60 Carlton Street, home to the Leafs from 1931-1999. Hosted the first NBA game in 1946.", "timestampStart": 15, "timestampEnd": 30 },
+      { "id": "e27", "name": "New York Knickerbockers", "type": "theme", "description": "The Knicks won the first NBA game 68-66 in Toronto on November 1, 1946.", "timestampStart": 25, "timestampEnd": 40 }
+    ],
+    "relatedStoryIds": ["s08", "s17", "s10"]
+  },
+  {
+    "id": "s23",
+    "title": "The Jamaican Patty: Toronto's Signature Bite",
+    "description": "The Jamaican beef patty became a Toronto icon through the Caribbean diaspora. In 1985, the government tried to ban the term 'beef patty,' sparking the Patty Wars. February 23 is now Patty Day in Toronto.",
+    "neighborhood": "Kensington Market",
+    "lat": 43.6547,
+    "lng": -79.4006,
+    "themes": ["food", "caribbean", "cultural identity", "regulation"],
+    "duration": 90,
+    "videoUrl": "/videos/23_Jamaican_Patty.mp4",
+    "thumbnail": null,
+    "transcript": "The Jamaican beef patty is as much a part of Toronto as the CN Tower. But getting it here took decades of work from the Caribbean community.",
+    "entities": [
+      { "id": "e28", "name": "Kensington Market", "type": "place", "description": "Bohemian neighbourhood and open-air market, home to early patty shops like Patty King and Kensington Patty Palace.", "timestampStart": 10, "timestampEnd": 25 },
+      { "id": "e29", "name": "The Patty Wars", "type": "event", "description": "1985 battle when the Canadian government tried to ban the term 'beef patty' under the Meat Inspection Act. The Caribbean community fought back and won.", "timestampStart": 35, "timestampEnd": 55 },
+      { "id": "e30", "name": "Patty Day", "type": "event", "description": "February 23 is officially Patty Day in Toronto, celebrating the Jamaican patty's cultural significance.", "timestampStart": 65, "timestampEnd": 80 }
+    ],
+    "relatedStoryIds": ["s06", "s05", "s19"]
   }
 ]
