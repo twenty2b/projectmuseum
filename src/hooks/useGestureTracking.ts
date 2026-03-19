@@ -68,8 +68,8 @@ export function useGestureTracking() {
           const rawX = landmarks[9].x
           const rawY = landmarks[9].y
           const rawZ = landmarks[9].z
-          const posSmoothing = 0.4
-          const depthSmoothing = 0.3
+          const posSmoothing = 0.25  // Lower = smoother (less jank)
+          const depthSmoothing = 0.15
 
           // Depth smoothing
           if (smoothedDepthRef.current !== null) {

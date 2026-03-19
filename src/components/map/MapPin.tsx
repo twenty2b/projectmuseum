@@ -105,6 +105,7 @@ export function MapPin({ position, story, state, visible, onSelect, onHover }: M
           }}
         >
           <div
+            data-story-id={story.id}
             className="px-3 py-1.5 rounded-full text-xs font-medium tracking-wide transition-all duration-300"
             style={{
               background: state === 'hovered' || state === 'selected'
